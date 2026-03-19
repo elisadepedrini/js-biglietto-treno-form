@@ -30,3 +30,19 @@ button {
     padding: 0.5rem;
 }
 
+
+h4 {
+    margin-left: 2rem;
+}
+.final-price, .final-km, .final-age {
+    border: 1px solid black;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: 35rem;
+}
+
+
+.single-box {
+    margin-top: 2rem;
+}

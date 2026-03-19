@@ -35,7 +35,18 @@ formEl.addEventListener('submit', function(e) {
     } 
 
 console.log(priceTicket.toFixed(2) + ' €');
+let finalPrice = priceTicket.toFixed(2) + ' €'
 
+// Milestone 2
+let boxPrice = document.querySelector('.final-price')
+boxPrice.append(finalPrice)
+
+let boxKm = document.querySelector('.final-km')
+boxKm.append(km)
+
+
+let boxAge = document.querySelector('.final-age')
+boxAge.append(age)
 
 })
 
